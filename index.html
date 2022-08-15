@@ -4,38 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
     <title>Pet Shop Front Cat & Dog</title>
 </head>
 <body>
     <header>
-        <h1>Grandes ofertas en comederos</h1>
-        <nav>
-            <ul type="none">
-                <li>Menu regional</li>
-                <ul type="none">
-                    <li>Español</li>
-                    <li>$ARG</li>
-                </ul>
-            </ul>
-
-        </nav>
-        <hr>
-        <nav>
-            <img src="./img/Logo.png" alt="Logo petshop">
-        </nav>
-        <nav>
-            <ul type="none">
-                <li>Categorias</li>
-                <li><button>Pets</button></li>
-                <li><button>Nosotros</button></li>
-                <li><button>Contactanos</button></li>
-            </ul>
-        </nav>
-        <hr>
+        <div class="container">
+            <div>
+                <p>Grandes ofertas en comederos</p>
+            </div>
+            <nav>
+                <select name="idioma" id="">
+                    <option value="Español">Español</option>
+                    <option value="Ingles">Ingles</option>
+                </select>
+                <select name="moneda" id="">
+                    <option value="ARG$">ARG$</option>
+                </select>
+            </nav>
+        </div>
+        <div class="menu">
+            <nav class="logo">
+                <img src="./img/Logo.png" alt="Logo petshop">
+            </nav>
+            <nav class="botones">
+                    <a href="#">Categorias</a>
+                    <a href="#">Pets</a>
+                    <a href="#">Nosotros</a>
+                    <a href="#">Contactanos</a>
+            </nav>
+        </div>
     </header>
     <main>
         <section>
-        <img src="./img/bowl-and-pet-daities-on-green-background 1.png" alt="imagen de fondo">
+        <img src="img/bowl-and-pet-daities-on-green-background 1.png" alt="imagen de fondo">
         <h3>¡Es un placer tenerte aqui!</h3>
         <span>¡Comederos con descuento!</span><br>
         <button>COMEDEROS</button>
